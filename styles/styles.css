@@ -1,4 +1,14 @@
-
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #16181f;
+}
+::-webkit-scrollbar-thumb {
+    background-color:  rgb(44, 20, 232);
+    border-radius: 15px;
+}
+html {
+    scroll-behavior: smooth; /*Coloca uma animação na hora de */
+}
 body{
     padding: 0;
     margin:0;
@@ -11,6 +21,8 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    position: fixed;
+    z-index: 999;
 }
 li{
     display: inline-block;
@@ -29,7 +41,8 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 0px;
+    padding-top: 110px;
+    padding-bottom: 50px;
 }
 #name{
     color: white;
@@ -38,7 +51,6 @@ main{
 h2{
     font-family: poppinsbold;
     font-weight: 200;
-    margin-left: 165px;
     margin-top: 45px;
     color: white;
     font-size: 30px;
@@ -49,17 +61,16 @@ p{
     line-height: 30px;
     font-family: poppinslight;
     max-width: 500px;
-    margin-left: 160px;
     margin-top: 30px;
     font-size: bold;
     color: white;
 }
-img{
+.imgMinhaFoto {
     width: 400px;
     margin-left: 150px;
     margin-top: 25px;
     margin-right: 50px; 
-    border-radius: 10px;
+    border-radius: 50%;
 }
 section{
     background-color: rgb(9, 5, 5);
@@ -68,4 +79,21 @@ section{
     flex-direction: column;
     display: flex;
     align-items: center;
+    min-height: 100%;
+}
+.experienciasContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.textINSS p{
+    text-align: center;
+}
+#imgINSS {
+    width: 500px;
+}
+.experienceText {
+    display: flex;
+    flex-direction: column;
 }
