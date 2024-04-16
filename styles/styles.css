@@ -83,26 +83,26 @@ section{
     align-items: center;
     min-height: 100%;
 }
-.experienciasContent{
+.workContent{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5rem;
 }
-.textINSS p{
+.textT2S p{
     text-align: center;
     color: black;
 }
 #imgT2S {
     width: 300px;
 }
-.experienceText {
+.workText {
     display: flex;
     flex-direction: column;
 }
-.experienceText h2 {
+.workText h2 {
     color: black;
 }
-.titles .sectionExperience{
+.titles .sectionWork{
     color: black;
 }
