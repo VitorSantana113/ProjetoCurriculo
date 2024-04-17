@@ -89,6 +89,7 @@ section #Trabalho{
     align-items: center;
     justify-content: center;
     gap: 5rem;
+    margin-bottom: 3rem;
 }
 .textT2S p{
     text-align: center;
@@ -112,7 +113,7 @@ section #Trabalho{
     padding-top: 5px;
     padding-bottom: 10rem;
 }
-.container1{
+.containerSkills{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -123,12 +124,12 @@ section #Trabalho{
     gap: 120px;
 }
 .SkillsPT1 div{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .imgSkills{
     width: 100px;
     transition: 0.5s ease-in-out;
-    border-radius: 27px;
+    border-radius: 35px;
     background: none;
     transition: box-shadow 0.1s;
     color: #202020;
@@ -140,4 +141,68 @@ section #Trabalho{
     color: #00d9ff;
     box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
     text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff;
+}
+.SkillsPT2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+}
+.SkillsPT2 div{
+    margin-top: 40px;
+}
+footer{
+    background-color: rgb(44, 20, 232);
+    padding-top: 5px;
+}
+.contact1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.farewell h3{
+    margin-top: 1.7rem;
+    font-family: poppinsbold;
+    color:white;
+}
+.farewell p{
+    text-indent: 0;
+    font-family: poppinslight;
+    color: white;
+}
+.containerSocialMidia h2{
+    font-family: poppinsbold;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+.containerSocialMidia {
+    display: flex;
+    flex-direction: column;
+}
+.socialMidia{
+     padding: 0;
+     display: flex;
+}
+.copyrightcontent hr{
+  display: flex;
+  border-style: inset;
+  border-width: 1px;
+  max-width: 1200px;
+}
+.textCopyright{
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+}
+.imgContact{
+    border-radius: 8px;
+}
+.imgContact:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+    text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff;
+    transform: scale(1.3);
+    border-radius: 8px;
 }
