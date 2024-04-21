@@ -1,0 +1,17 @@
+@media screen and (max-widht: 400px){
+    header{
+        flex-direction: column;
+    }
+    #Sobre{
+        flex-direction: column;
+    }
+    #Trabalho{
+        flex-direction: column;
+    }
+    #Habilidades{
+        flex-direction: column;
+    }
+    #Contato{
+        flex-direction: column;
+    }
+}
